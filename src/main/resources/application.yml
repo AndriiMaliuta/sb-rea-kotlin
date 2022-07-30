@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: SB Reactive web
+  r2dbc:
+    username: dev
+    password: ${DB_PASS}
+    url: ${DB_URL}
+    name: welt
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
